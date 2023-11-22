@@ -26,4 +26,11 @@ public class Lab04 {
 		
 	}
 	
+	public static void main(String[] args) {
+		
+		Lab04 lab4 = new Lab04();
+		lab4.part1();
+		
+	}
+	
 }
