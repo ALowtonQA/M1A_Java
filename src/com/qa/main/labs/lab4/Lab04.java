@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class Lab04 {
 
-	public void part1(Scanner scanner) {
+	public void part1() {
+		
+		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Enter the price of a bag:");
 		int bagPrice = scanner.nextInt();

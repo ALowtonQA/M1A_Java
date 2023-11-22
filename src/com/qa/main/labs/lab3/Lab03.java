@@ -28,16 +28,16 @@ public class Lab03 {
     	Scanner scanner = new Scanner(System.in);
         System.out.println(prompt);
         int result = scanner.nextInt();
-        
-        // clear the scanner
-        scanner.nextLine();
-        
         return result; 
     }
     
     public static String getString(String prompt){
     	Scanner scanner = new Scanner(System.in);
         System.out.println(prompt);
+        
+        // clear the scanner
+        scanner.nextLine();
+        
         String result = scanner.nextLine();
         return result;
     }
