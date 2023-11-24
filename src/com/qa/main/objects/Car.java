@@ -2,18 +2,23 @@ package com.qa.main.objects;
 
 public class Car {
 
-	// Properties
+	// Static property - count how many objects have been made.
+	public static int count = 0;
+	
+	// Instance Properties
 	private String make;
 	private int speed;
 
 	public Car(String make, int speed) {
 		this.make = make;
 		this.speed = speed;
+		count++;
 	}
 	
 	public Car(String make) {
 		this.make = make;
 		this.speed = 10;
+		count++;
 	}
 
 	public String getMake() {

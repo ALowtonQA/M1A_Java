@@ -10,6 +10,8 @@ public class Runner {
 		
 		Car tomsCar = new Car("Audi");
 		
+		System.out.println("The number of objects made so far is: " + Car.count);
+		
 		System.out.println("The make of my car is: " + myCar.getMake());
 		System.out.println("The make of Matt's car is: " + mattsCar.getMake());
 		
