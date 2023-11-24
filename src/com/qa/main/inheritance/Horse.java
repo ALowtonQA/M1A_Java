@@ -5,17 +5,10 @@ public class Horse extends Animal{
 	private int maneLength;
 
 	public Horse(String name, int age, int numOfLegs, int maneLength) {
-		// calls the parent constructor
-		// So that we can set the inherited properties
-		super(name, age, numOfLegs);
-		
+		super(name, age, numOfLegs); // Parent constructor
 		this.maneLength = maneLength;
 	}
-
-	public void neigh() {
-		System.out.println("neighhhhh");
-	}
-
+	
 	public int getManeLength() {
 		return maneLength;
 	}

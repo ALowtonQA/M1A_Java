@@ -5,15 +5,8 @@ public class Dog extends Animal {
 	private boolean isWaggingTail;
 
 	public Dog(String name, int age, int numOfLegs, boolean isWaggingTail) {
-		 // calls the parent constructor
-		// So that we can set the inherited properties
-		super(name, age, numOfLegs);
-		
+		super(name, age, numOfLegs); // Parent constructor 
 		this.isWaggingTail = isWaggingTail;
-	}
-
-	public void bark() {
-		System.out.println("woof");
 	}
 
 	public boolean isWaggingTail() {

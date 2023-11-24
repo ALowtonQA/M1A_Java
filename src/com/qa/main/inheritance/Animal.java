@@ -6,6 +6,9 @@ public class Animal {
 	private int age;
 	private int numOfLegs;
 	
+	// Default Constructor
+//	public Animal() {}
+	
 	public Animal(String name, int age, int numOfLegs) {
 		this.name = name;
 		this.age = age;
